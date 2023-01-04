@@ -6,11 +6,11 @@
 ##
 
 SRC		=	\
-			src/create_circle.c \
-			src/set_struct.c	\
-			src/core.c
+			src/step01.c \
+			src/step02.c \
+			src/main.c
 
-NAME =	my_hunter
+NAME =	my_radar
 
 OBJ =	$(SRC:.c=.o)
 
